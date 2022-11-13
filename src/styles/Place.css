@@ -1,0 +1,28 @@
+.place {
+    position: relative;
+    max-width: 1440px;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.place-content {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.place-content p {
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #434343;
+}

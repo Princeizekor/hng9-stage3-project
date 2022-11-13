@@ -1,0 +1,41 @@
+.midnav {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+    gap: 264px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+@media screen and (max-width: 1023px) {
+    .midnav {
+        padding: 10px 100px;
+        gap: 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .midnav {
+        padding: 10px 0px;
+        gap: 35px;
+    }
+
+    .midnav img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .midnav {
+        padding: 10px 0px;
+        gap: 15px;
+    }
+
+    .midnav img {
+        width: 100px;
+    }
+}

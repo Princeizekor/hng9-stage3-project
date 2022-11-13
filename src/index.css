@@ -1,0 +1,19 @@
+@import url('./styles/Navbar.css');
+@import url('./styles/Home.css');
+@import url('./styles/Midnav.css');
+@import url('./styles/Inspiration.css');
+@import url('./styles/Discover.css');
+@import url('./styles/Footer.css');
+@import url('./styles/Modal.css');
+@import url('./styles/Place.css');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Red Rose', cursive;
+  color: #434343;
+}
