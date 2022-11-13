@@ -15,14 +15,106 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: none;
+    display: flex;
+}
+
+.all {
+    width: 75%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 
 .place-content p {
     font-family: 'Red Rose';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #434343;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+}
+
+.locate {
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-between;
+    color: #333333;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        width: 100%;
+        margin: 0%;
+        padding: 50px 30px;
+    }
+    
+    .all {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+        top: 130px;
+        background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+        border: 1px solid #B4B4B4;
+        border-radius: 8px;
+        align-items: center;
+        flex-direction: column;
+        color: #333333;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .all p {
+        margin-top: 7px;
+    }
+    
+    .locate {
+        position: relative;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        width: 100%;
+        margin: 0%;
+        padding: 50px 30px;
+    }
+
+    .all {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+        top: 130px;
+        background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+        border: 1px solid #B4B4B4;
+        border-radius: 8px;
+        align-items: center;
+        flex-direction: column;
+        color: #333333;
+        cursor: pointer;
+        text-align: left;
+    }
+    
+    .locate {
+        position: relative;
+        width: 300px;
+    }
 }

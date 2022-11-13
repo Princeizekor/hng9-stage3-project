@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import placeData from '../placeData'
 
 function Place() {
+    const [locate, setLocate] = useState(false)
+    const handleClick = () => {
+        setLocate(!locate)
+        }
   return (
     <div className="place">
         <div className="place-content">
+            <div className="all" style={locate !== false ? {display: 'none'} : {display: 'flex'}}>
             <p>Resturant</p>
             <p>Cottage</p>
             <p>Castle</p>
@@ -13,6 +18,11 @@ function Place() {
             <p>Carbins</p>
             <p>Off-grid</p>
             <p>Farm</p>
+            </div>
+            <div className="locate" onClick={handleClick}>
+                Location
+                <img src="./img/location-icon.svg" alt="" />
+            </div>
         </div>
     <div className="nft-wrap">
       {
