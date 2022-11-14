@@ -91,16 +91,8 @@
         padding: 30px;
     }
     
-    .disc-img1 {
+    .disc-img {
         top: 150px;
-    }
-    
-    .disc-img2 {
-        left: 130px;
-    }
-    
-    .disc-img3 {
-        left: 100px;
     }
 }
 
@@ -131,21 +123,9 @@
         padding: 0px;
     }
     
-    .disc-img1 {
-        left: 0px;
-        top: 0px;
-    }
-    
-    .disc-img2 {
-        left: auto;
-        right: 0%;
-        top: 0px;
-    }
-    
-    .disc-img3 {
-        left: 20%;
-        top: auto;
-        bottom: 0%;
+    .disc-img {
+        position: static;
+        width: 380px;
     }
 }
 
@@ -197,9 +177,7 @@
         flex-direction: column;
     }
     
-    .disc-img1,
-    .disc-img2,
-    .disc-img3 {
+    .disc-img {
         position: static;
         width: 80%;
     }

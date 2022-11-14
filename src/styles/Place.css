@@ -54,7 +54,6 @@
     padding: 20px;
     justify-content: space-between;
     color: #333333;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 1023px) {

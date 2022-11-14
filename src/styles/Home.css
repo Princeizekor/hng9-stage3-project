@@ -97,26 +97,34 @@ border-radius: 0px 8px 8px 0px;
     }
     
     .home-text {
-        width: 550px;
+        width: 400px;
         height: 120px;
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .home-text2 {
-        width: 400px;
+        width: 350px;
         height: 102px;
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 0px;
     }
     
     .form-field {
         margin-top: 50px;
     }
+
+    .disp2 {
+        position: relative;
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
     
     .image3 {
-        width: 200px;
-        left: auto;
-        right: 0%;
+        position: static;
+        width: 370px;
+        height: auto;
     }
 }
 
@@ -186,16 +194,14 @@ border-radius: 0px 8px 8px 0px;
     
     .disp2 {
         width: 100%;
-        height: 300px;
+        height: auto;
         margin-top: 40px;
     }
     
     .image3 {
-        width: 234px;
-        height: 176px;
-        left: auto;
-        right: 0%;
-        top: 0px;
+        position: static;
+        width: 400px;
+        height: auto;
     }
 }
 
@@ -213,13 +219,12 @@ border-radius: 0px 8px 8px 0px;
     .disp2 {
         display: flex;
         height: auto;
-        flex-direction: column;
     }
     
     .image3 {
         position: static;
-        width: 100%;
-        height: 190px;
+        width: 250px;
+        height: auto;
         object-fit: cover;
         background-position: center;
         background-repeat: no-repeat;
