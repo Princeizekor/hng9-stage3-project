@@ -10,9 +10,7 @@ function Discover() {
               <button type="button" className="disc-btn">Learn more</button>
           </div>
           <div className="disc2">
-              <img src="./img/image 7.svg" alt="discovery image" className="disc-img1" />
-              <img src="./img/image 9.svg" alt="discovery image" className="disc-img2" />
-              <img src="./img/image 8.svg" alt="discovery image" className="disc-img3" />
+              <img src="./img/metabnb-img.png" alt="discovery image" className="disc-img" />
           </div>
       </div>
     </div>

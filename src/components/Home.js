@@ -13,10 +13,7 @@ function Home() {
       </form>
       </div>
       <div className="disp2">
-          <div className="image3"></div>
-          <div className="image4"></div>
-          <div className="image5"></div>
-          <div className="image6"></div>
+        <img src="./img/rent-img.png" alt="header image" className="image3"/>
       </div>
       </div>
     </div>

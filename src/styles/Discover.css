@@ -59,37 +59,19 @@
     position: relative;
     width: 50%;
     height: 100%;
-    padding: 50px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.disc-img1 {
-    position: absolute;
-    width: 378.2px;
-    height: 253.89px;
+.disc-img {
+    width: 450px;
+    height: 450px;
     left: 0px;
     top: 220px;
     border-radius: 10px;
     z-index: 1;
-}
-
-.disc-img2 {
-    position: absolute;
-    width: 378.21px;
-    height: 253.89px;
-    left: 180px;
-    top: 120px;
-    border-radius: 10px;
-    z-index: 0;
-}
-
-.disc-img3 {
-    position: absolute;
-    width: 378.2px;
-    height: 253.89px;
-    left: 230px;
-    top: 280px;
-    border-radius: 10px;
-    z-index: 100;
 }
 
 @media screen and (max-width: 1023px) {
