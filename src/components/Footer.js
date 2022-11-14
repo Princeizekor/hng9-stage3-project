@@ -31,6 +31,7 @@ function Footer() {
           <p className="footer-text">Creators</p>
           <p className="footer-text">Career</p>
           <p className="footer-text">Contact us</p>
+          <p className="and">&copy; 2022 Metabnb</p>
           </div>
       </div>
     </div>

@@ -69,6 +69,11 @@
     color: whitesmoke;
     bottom: 0%;
     font-weight: 300;
+    display: flex;
+}
+
+.and {
+    display: none;
 }
 
 @media screen and (max-width: 1023px) {
@@ -94,55 +99,58 @@
 
 @media screen and (max-width: 767px) {
     .footer {
-        height: 250px;
+        height: auto;
     }
     
     .footer-wrap {
         width: 100%;
         margin: 0%;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         padding: 40px 30px;
+    }
+
+    .comp1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
     
     .footer-logo {
-        left: auto;
-        right: auto;
-        bottom: auto;
-        width: 110px;
+        position: static;
+        width: 180px;
     }
     
-    .facebook {
-        position: absolute;
-        left: auto;
-        top: 60px;
-        bottom: 0%;
-    }
-    
-    .instagram {
-        position: absolute;
-        left: 25%;
-        top: 60px;
-        bottom: 0%;
-    }
-    
+    .facebook,
+    .instagram,
     .twitter {
-        position: absolute;
-        left: 60%;
-        top: 60px;
-        bottom: 0%;
+        position: static;
+    }
+
+    .comp2,
+    .comp3,
+    .comp4 {
+        margin-top: 30px;
     }
     
     .footer-text:first-child {
-        font-size: 20px;
+        font-size: 30px;
     }
     
     .footer-text {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 25px;
+        line-height: 40px;
     }
-    
+
     .copy {
-        left: auto;
+        display: none;
+    }
+
+    .and {
+        color: whitesmoke;
+        font-weight: 300;
+        display: flex;
+        margin-top: 20px;
     }
 }
 
@@ -167,31 +175,13 @@
     
     .footer-logo {
         position: static;
-        left: auto;
-        right: auto;
-        bottom: auto;
         width: 110px;
     }
     
-    .facebook {
-        position: static;
-        left: auto;
-        top: 60px;
-        bottom: 0%;
-    }
-    
-    .instagram {
-        position: static;
-        left: 25%;
-        top: 60px;
-        bottom: 0%;
-    }
-    
+    .facebook,
+    .instagram,
     .twitter {
         position: static;
-        left: 60%;
-        top: 60px;
-        bottom: 0%;
     }
 
     .comp2,
@@ -208,11 +198,8 @@
         font-size: 18px;
         line-height: 30px;
     }
-    
-    .copy {
-        position: fixed;
-        margin-bottom: 20px;
-        left: auto;
-        bottom: 0%;
+
+    .and {
+        display: flex;
     }
 }
