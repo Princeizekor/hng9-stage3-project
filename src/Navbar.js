@@ -12,7 +12,7 @@ function Navbar() {
     }
   return (
     <div className="navbar">
-        <img src="../img/Group.jpg" alt="this is the website logo" className="web_logo"/>
+        <Link to="/"><img src="../img/Group.jpg" alt="this is the website logo" className="web_logo"/></Link>
         <ul className="list" style={dropdown !== false ? {height: '100vh', left: 0} : {left: '-100%', overflow: 'hidden'}}>
             <li>
                 <Link to="/" onClick={() => setDropdown(!dropdown)}>Home</Link>
