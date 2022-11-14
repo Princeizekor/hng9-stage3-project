@@ -24,7 +24,7 @@
     font-family: 'Red Rose';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 35px;
     line-height: 60px;
     color: white;
 }
@@ -33,7 +33,7 @@
     font-family: 'Red Rose';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 35px;
     color: whitesmoke;
     margin-top: 25px;
@@ -66,8 +66,8 @@
 }
 
 .disc-img {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     left: 0px;
     top: 220px;
     border-radius: 10px;
