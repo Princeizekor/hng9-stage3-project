@@ -2,18 +2,18 @@
     position: sticky;
     top: 0%;
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 100px;
+    padding: 0px 100px;
     background-color: white;
     z-index: 1000;
 }
 
 .web_logo {
     position: absolute;
-    bottom: 15.97%;
+    bottom: auto;
     box-shadow: inset 4px 4px 44px rgba(96, 96, 96, 0.15);
 }
 
@@ -30,7 +30,7 @@
 
 .connect_btn {
     width: 117px;
-    height: 35px;
+    height: 40px;
     top: 15px;
     font-family: 'Red Rose';
     font-style: normal;
@@ -56,6 +56,7 @@
 @media screen and (max-width: 1023px) {
     .navbar {
         padding: 30px 50px;
+        height: 60px;
     }
     
     .web_logo {
@@ -112,7 +113,7 @@
     
     .web_logo {
         position: absolute;
-        bottom: 15.97%;
+        bottom: auto;
         width: 100px;
         box-shadow: inset 4px 4px 44px rgba(96, 96, 96, 0.15);
     }
