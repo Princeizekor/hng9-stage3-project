@@ -121,11 +121,15 @@
         width: 100%;
         height: 50%;
         padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .disc-img {
         position: static;
         width: 380px;
+        height: auto;
     }
 }
 
@@ -174,11 +178,12 @@
         padding: 0px;
         display: flex;
         align-items: center;
-        flex-direction: column;
+        justify-content: center;
     }
     
     .disc-img {
         position: static;
-        width: 80%;
+        width: 280px;
+        height: auto;
     }
 }

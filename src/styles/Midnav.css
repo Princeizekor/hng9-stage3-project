@@ -21,7 +21,9 @@
 @media screen and (max-width: 767px) {
     .midnav {
         padding: 10px 0px;
-        gap: 35px;
+        gap: 15px;
+        height: 150px;
+        flex-direction: column;
     }
 
     .midnav img {
@@ -33,9 +35,11 @@
     .midnav {
         padding: 10px 0px;
         gap: 15px;
+        height: 150px;
+        flex-direction: column;
     }
 
     .midnav img {
-        width: 100px;
+        width: 150px;
     }
 }
