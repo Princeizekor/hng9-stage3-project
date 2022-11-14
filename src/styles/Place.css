@@ -44,7 +44,7 @@
     border: 1px solid #B4B4B4;
     border-radius: 8px;
     align-items: center;
-    display: flex;
+    display: none;
     font-family: 'Red Rose';
     font-style: normal;
     font-weight: 400;
@@ -54,6 +54,10 @@
     padding: 20px;
     justify-content: space-between;
     color: #333333;
+}
+
+.second {
+    display: flex;
 }
 
 @media screen and (max-width: 1023px) {
@@ -86,6 +90,11 @@
     .locate {
         position: relative;
         width: 300px;
+        display: flex;
+    }
+
+    .second {
+        display: none;
     }
 }
 
@@ -115,5 +124,8 @@
     .locate {
         position: relative;
         width: 300px;
+    }
+    .second {
+        display: none;
     }
 }

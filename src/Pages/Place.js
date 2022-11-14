@@ -23,6 +23,10 @@ function Place() {
                 Location
                 <img src="./img/location-icon.svg" alt="" />
             </div>
+            <div className="locate second">
+                Location
+                <img src="./img/location-icon.svg" alt="" />
+            </div>
         </div>
     <div className="nft-wrap">
       {
